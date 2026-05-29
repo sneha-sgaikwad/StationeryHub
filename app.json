@@ -3,25 +3,42 @@
     "name": "StationeryHub",
     "slug": "stationeryhub",
     "version": "1.0.0",
+
     "orientation": "portrait",
+
     "userInterfaceStyle": "light",
+
+    "platforms": [
+      "android",
+      "web"
+    ],
+
+    "web": {
+      "bundler": "metro"
+    },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "android": {
       "package": "com.stationeryhub.app"
     },
+
     "extra": {
       "eas": {
         "projectId": "b8296852-c6ca-409e-bf24-288d41c5da52"
       }
     },
+
     "runtimeVersion": {
       "policy": "appVersion"
     },
+
     "updates": {
       "url": "https://u.expo.dev/b8296852-c6ca-409e-bf24-288d41c5da52"
     },
+
     "ios": {}
   }
 }
