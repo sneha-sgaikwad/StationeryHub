@@ -10,6 +10,18 @@
     ],
     "android": {
       "package": "com.stationeryhub.app"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8296852-c6ca-409e-bf24-288d41c5da52"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b8296852-c6ca-409e-bf24-288d41c5da52"
+    },
+    "ios": {}
   }
 }
